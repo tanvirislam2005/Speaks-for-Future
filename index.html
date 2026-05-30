@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Speaks for Future | Learn English Internationally</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+
+    <div class="logo">
+      <span>Speaks</span> For Future
+    </div>
+
+    <nav class="navbar" id="navbar">
+       <button class="auth-btn modified" id="openModal">
+        <i class="fa-solid fa-user"></i>
+        Login / Sign Up
+      </button>
+      <a href="index.html">Home</a>
+    <a href="./courses/courses.html">Courses</a>
+    <a href="./store/store.html">Store</a>
+    <a href="./about/about.html">About</a>
+    <a href="./contact/contact.html">Contact</a>
+
+    </nav>
+	
+	  <!-- SEARCH BOX -->
+  <div class="search-box">
+    <input type="text" placeholder="Search courses, IELTS, vocabulary...">
+    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+  </div>
+
+    <div class="header-buttons">
+<!-- id="openModal" -->
+      <button class="auth-btn modified" onclick="openAuth();">
+        <i class="fa-solid fa-user"></i>
+        Login / Sign Up
+      </button>
+
+      <div class="menu-btn" id="menuBtn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+    </div>
+	
+	
+
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>
+        Learn English Like an International Speaker
+      </h1>
+
+      <p>
+        IELTS, Spoken English, Grammar, Vocabulary, and Professional Communication — all in one modern learning platform.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#" class="primary-btn">Start Learning</a>
+        <a href="#" class="secondary-btn">Explore Courses</a>
+      </div>
+
+      <div class="hero-stats">
+
+        <div class="stat-box">
+          <h2>20K+</h2>
+          <p>Students</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>95%</h2>
+          <p>Success Rate</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>50+</h2>
+          <p>Premium Courses</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="hero-image">
+
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop" alt="English Learning">
+
+    </div>
+
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+
+    <div class="section-title">
+      <h2>Why Students Love Speaks for Future</h2>
+      <p>Modern English learning experience designed for the global generation.</p>
+    </div>
+
+    <div class="feature-grid">
+
+      <div class="feature-card">
+        <i class="fa-solid fa-headphones"></i>
+        <h3>IELTS Preparation</h3>
+        <p>Complete Listening, Reading, Writing and Speaking practice.</p>
+      </div>
+
+      <div class="feature-card">
+        <i class="fa-solid fa-microphone"></i>
+        <h3>Spoken English</h3>
+        <p>Speak confidently in daily life, interviews and abroad.</p>
+      </div>
+
+      <div class="feature-card">
+        <i class="fa-solid fa-book"></i>
+        <h3>Vocabulary Builder</h3>
+        <p>Advanced words, idioms and expressions with Bangla meaning.</p>
+      </div>
+
+      <div class="feature-card">
+        <i class="fa-solid fa-video"></i>
+        <h3>Live Classes</h3>
+        <p>Interactive premium live classes from expert teachers.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- COURSES -->
+  <section class="courses">
+
+    <div class="section-title">
+      <h2>Popular Courses</h2>
+      <p>Professional English courses for students worldwide.</p>
+    </div>
+
+    <div class="course-grid">
+
+      <div class="course-card">
+
+        <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1200&auto=format&fit=crop" alt="IELTS">
+
+        <div class="course-content">
+
+          <span class="course-tag">IELTS</span>
+
+          <h3>Complete IELTS Masterclass</h3>
+
+          <p>
+            Achieve your dream IELTS score with advanced strategies and real practice.
+          </p>
+
+          <div class="course-footer">
+            <span>$49</span>
+            <button>Enroll</button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="course-card">
+
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" alt="Spoken English">
+
+        <div class="course-content">
+
+          <span class="course-tag">Speaking</span>
+
+          <h3>Fluent Spoken English</h3>
+
+          <p>
+            Improve fluency, pronunciation and real-world communication.
+          </p>
+
+          <div class="course-footer">
+            <span>$35</span>
+            <button>Enroll</button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="course-card">
+
+        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop" alt="Grammar">
+
+        <div class="course-content">
+
+          <span class="course-tag">Grammar</span>
+
+          <h3>English Grammar Pro</h3>
+
+          <p>
+            Learn grammar from beginner to advanced with easy techniques.
+          </p>
+
+          <div class="course-footer">
+            <span>$29</span>
+            <button>Enroll</button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <h2>Speaks for Future</h2>
+
+    <p>
+      International English Learning Platform for Modern Students.
+    </p>
+
+    <div class="footer-social">
+
+      <a href="https://www.facebook.com/profile.php?id=61586679221891" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.youtube.com/@SpeaksforFuture" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.instagram.com/speaksforfuture/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+    </div>
+
+    <p class="copyright">
+      © 2026 Speaks for Future. All rights reserved.
+    </p>
+
+  </footer>
+
+  <!-- AUTH MODAL -->
+  <div class="modal" id="modal">
+
+    <div class="modal-box">
+
+      <div class="close-btn" id="closeModal">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+
+      <!-- LOGIN -->
+      <div class="form-container active" id="loginForm">
+
+        <h2>Welcome Back</h2>
+
+        <form>
+
+          <input type="email" placeholder="Email Address" required>
+
+          <input type="password" placeholder="Password" required>
+
+          <button type="submit">Login</button>
+
+        </form>
+
+        <p>
+          Don't have an account?
+          <span id="showSignup">Sign Up</span>
+        </p>
+
+      </div>
+
+      <!-- SIGNUP -->
+      <div class="form-container" id="signupForm">
+
+        <h2>Create Account</h2>
+
+        <form>
+
+          <input type="text" placeholder="Full Name" required>
+
+          <input type="number" placeholder="Mobile Number" required>
+
+          <input type="email" placeholder="Email Address" required>
+
+          <input type="password" placeholder="Password" required>
+
+          <input type="password" placeholder="Re-write Password" required>
+
+          <button type="submit">Create Account</button>
+
+        </form>
+
+        <p>
+          Already have an account?
+          <span id="showLogin">Login</span>
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- SCRIPT -->
+  <script>
+
+    const menuBtn = document.getElementById('menuBtn');
+    const navbar = document.getElementById('navbar');
+
+    menuBtn.onclick = () => {
+      navbar.classList.toggle('active');
+    }
+
+    const modal = document.getElementById('modal');
+    const openModal = document.getElementById('openModal');
+    const closeModal = document.getElementById('closeModal');
+
+    openModal.onclick = () => {
+      modal.classList.add('active');
+    }
+
+    closeModal.onclick = () => {
+      modal.classList.remove('active');
+    }
+
+    window.onclick = (e) => {
+      if(e.target == modal){
+        modal.classList.remove('active');
+      }
+    }
+
+    const loginForm = document.getElementById('loginForm');
+    const signupForm = document.getElementById('signupForm');
+
+    document.getElementById('showSignup').onclick = () => {
+      loginForm.classList.remove('active');
+      signupForm.classList.add('active');
+    }
+
+    document.getElementById('showLogin').onclick = () => {
+      signupForm.classList.remove('active');
+      loginForm.classList.add('active');
+    }
+	
+	
+	function openAuth(){
+	  let btn = document.getElementById('modal');
+			btn.classList.add('active');
+			
+			console.log("ok");
+	}
+
+  </script>
+
+</body>
+</html>
